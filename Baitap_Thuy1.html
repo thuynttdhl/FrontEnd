@@ -1,0 +1,128 @@
+<! DOCTYPE HTML>
+<HTM lang ="en">
+<head>
+    <Meta charset="UTF-8">
+    <Title> Bài tập 1 </Title>
+    <style type="Text/css">
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+    </style>
+</head>
+<body>
+    <H1>Khóa học FrontEnd cơ bản</H1>
+    <a href="#Section1"> HTML</a><br>
+    <a href="#Section2"> Danh sách các bài học</a><br>
+    <a href="#Section3"> Bảng điểm</a><br>
+    <a href="#Section4"> Giảng viên</a><br>
+    <hr>
+    <div id="Section1">
+        <H2> 1. HTML </H2>
+        <p> HTML là viết tắt của Hypertext Markup Language là ngôn ngữ dùng để
+         xây dựng và cấu trúc lại các thành phần có trong Website </p> 
+         <br>
+         <H3> 1.1 Thuộc tính HTML </H3>
+         <br>
+         <H3>Vai trò thuộc tính HTML </H3>
+         <ul>
+            <li>Tất cả các phần tử HTML đều có thể có thuộc tính</li>
+            <li>Thuộc tính bổ sung thêm thông tin cho phần tử HTML</li>
+            <li>Thuộc tính được đặt ở phần mở thẻ</li>
+            <li>Thuộc tính thông thường tuân theo định dạng key/value</li>
+         </ul>
+
+         <H3> 1.2 Thẻ định dạng văn bản </H3>
+         <br>
+            <dl>
+                <dt>Thẻ b</dt>
+                <dd><b>In đậm </b></dd>
+
+                <dt>Thẻ em</dt>
+                <dd><em>In nghiêng</em></dd>
+
+                <dt>Thẻ i</dt>
+                <dd><i>In nghiêng </i></dd>
+
+                <dt>Thẻ Mark</dt>
+                <dd>Làm nổi bật Text</dd>
+
+                <dt>Thẻ Pre</dt>
+                <dd>Giữ nguyên định dạng Text</dd>
+
+                <dt>Thẻ Small</dt>
+                <dd>Hiển thị chữ kích thước nhỏ hơn</dd>
+
+                <dt>Thẻ Strong</dt>
+                <dd>In đậm Text</dd>
+
+                <dt>Thẻ Sub</dt>
+                <dd>Hiển thị chữ nhỏ ở dưới so với dòng cơ bản Log<sub>2</sub>10</dd>
+
+                <dt>Thẻ Sup</dt>
+                <dd>Hiển thị chữ ở trên so với dòng cơ bản 10*10=10 <sup>2</sup></dd>
+
+                <dt>Thẻ a gửi email</dt>
+                <dd>
+                    <a href="mailto:thuyntt.dhl@gmail.com">Send Email </a>
+                </dd>
+
+            </dl>
+
+    </div>
+    
+    <div id="Section2">
+         <h3>2. Danh sách các bài học</h3>
+         <ol>Tổng quan HTML</ol>
+         <ol>Tổng quan CSS</ol>
+         <ol>Tổng quan Javascript</ol>
+         <ol>Tổng quan Jquery</ol>
+         <ol>Tổng quan Bootstrap</ol>
+    </div>
+    
+    <div id="Section3">
+        <h3>3.Bảng điểm thi giữa kỳ các môn</h3>
+        <table border="1">
+            <caption>
+                <b>Student Marks</b>
+                <br>
+            </caption>
+            <thead>
+                    <tr>
+                        <th rowspan="2">Student</th>
+                        <th colspan="4">Marks</th>
+                    </tr>
+                    <tr>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                        <th>Javascript</th>
+                        <th>Bootstrap</th>
+                    </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>Nguyễn Văn A</td>
+                        <td>10</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Nguyễn Văn B</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+            </tbody>
+        </table>
+    
+    </div>
+    <div id="Section4">
+        <h3>4. Thông tin giảng viên</h3> <br>
+        <p>Họ tên: Nguyễn Văn A</p>
+        <img src="./TomCruise.jpg"/>
+    </div>
+</body>
+</HTM>
