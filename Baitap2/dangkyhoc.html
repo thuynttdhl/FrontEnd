@@ -1,0 +1,94 @@
+<! DOCTYPE HTML>
+<HTM lang ="en">
+<head>
+    <Meta charset="UTF-8">
+    <Title> Bài tập 1 </Title>
+    <style type="Text/css">
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+    </style>
+</head>
+<body>
+<header>
+<div>
+    <img src="logo.png" width="50"/><br>
+    <strong>Học viện đào tạo công nghệ</strong><br>
+    <a href="https://plusplus.vn/"> Giới thiệu trung tâm</a> <br>
+    <a href="dangkyhoc.html">Đăng ký học tập</a>
+    <hr>
+</div>
+</header>
+<main>
+<div>
+    <h1>PlusPlus Academy</h1><br>
+    <p>Plusplus Academy tập trung mạnh đào tạo lập trình học máy (AI, Machine learning), Web front end, back end,...</p>
+    <h2>Đăng ký khóa học của trung tâm</h2> <br>
+
+    <form action="https://www.w3schools.com/action_page.php">
+        <fieldset>
+            <legend>Đăng ký khóa học</legend>
+            <label for="fullname"> Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="old">Tuổi:</label>
+            <input type="number" id="old" name="old" min="0" max="0">   <br><br>
+
+            <label for ="gender">giới tính:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for ="gender">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for ="gender">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for ="gender">other</label>
+
+            <br><br>
+            <label for ="birthday">Ngày sinh:</label>
+            <input type="date" id="birthday" name="birthday"> <br><br>
+
+            <label for="email">Địa chỉ email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="khoahoc"> Danh sách khóa học:</label>
+            <select id="khoahoc" name="khoahoc">
+                <option value="frontend">Frontend</option>
+                <option value="javacore">javacore</option>
+                <option value="AI">AI</option>
+            </select>
+        
+
+        </fieldset>
+        <br><br>
+        <hr>
+        <h2>Bạn biết đến trung tâm chúng tôi từ đâu?</h2>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="banbe">
+        <label for="checkbox1">Qua bạn bè</label> <br><br>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="facebook">
+        <label for="checkbox2">Qua facebook</label> <br><br>
+        <input type="checkbox" id="checkbox3" name="checkbox3" value="tuvan">
+        <label for="checkbox3">Qua nhân viên tư vấn</label> <br><br>
+        <h2>Đánh giá trung tâm</h2>
+
+        <textarea name="danhgia" rows="4" cols="30">
+            Đánh giá của bạn
+        </textarea>
+        <br><br>
+        <input type="submit">
+
+
+    </form>
+</div>
+</main>
+<footer>
+<div>
+    <img src="logo.png" width="50"/> <br>
+    <p>Số 11 Phạm Ngọc Thạch- Hà Nội </p>
+</div>  
+</footer>  
+</body>
+</HTM>
